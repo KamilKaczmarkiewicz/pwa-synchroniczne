@@ -26,11 +26,11 @@ const showMobileMenu = () => {
 
     <div id="navbarBasicExample" :class="{'navbar-menu': !mobileMenu}">
         <div class="navbar-start">
-            <a class="navbar-item" href="/list">
-                Lista produktów (nie spa)
+            <a class="navbar-item" href="/stylizacje-codzienne">
+                STYLIZACJE CODZIENNE (nie spa)
             </a>
-            <NuxtLink class="navbar-item" to="/list">
-                Lista produktów
+            <NuxtLink class="navbar-item" to="/stylizacje-codzienne">
+                STYLIZACJE CODZIENNE
             </NuxtLink>
  
             <a class="navbar-item">
