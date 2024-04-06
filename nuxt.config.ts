@@ -1,11 +1,15 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 import { resolve } from "path";
+
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["nuxt-svgo"],
-  svgo: {
-    componentPrefix: "i",
-  },
   devtools: { enabled: true },
-  alias: {"@": resolve(__dirname, '/')},
-  css: ["~/assets/main.scss"]
-})
+  alias: { "@": resolve(__dirname, "/") },
+  css: ["~/assets/main.scss"],
+  modules: ["@nuxtjs/google-fonts"],
+  googleFonts: {
+    families: {
+      Montserrat: true,
+      Merriweather: true,
+    },
+  },
+});

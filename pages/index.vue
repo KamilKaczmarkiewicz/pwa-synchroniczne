@@ -1,5 +1,5 @@
 <template>
-    <h3 style="min-height: 100vh;">index</h3>
+    <!-- <h3 style="min-height: 100vh;">index</h3> -->
     <MainPageInfoSection/>
     <MainPagePromoSection/>
     <MainPageTilesSection />
