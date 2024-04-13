@@ -85,7 +85,7 @@ onUnmounted(() => {
 
       <NuxtLink class="menu-item" to="/">Torebki</NuxtLink>
       <NuxtLink class="menu-item" to="/">Stylizacje wieczorowe</NuxtLink>
-      <NuxtLink class="menu-item" to="/">Stylizacje codzienne</NuxtLink>
+      <NuxtLink class="menu-item" to="/stylizacje-codzienne">Stylizacje codzienne</NuxtLink>
       <NuxtLink class="menu-item" to="/">Kolekcja lato</NuxtLink>
       <NuxtLink class="menu-item" to="/">Promocje</NuxtLink>
       <NuxtLink class="menu-item" to="/">Nowości</NuxtLink>
