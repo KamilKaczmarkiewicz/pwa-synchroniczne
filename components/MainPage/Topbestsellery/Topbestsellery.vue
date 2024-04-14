@@ -1,7 +1,7 @@
 <template>
     <div class="top-bestsellers">
         <div class="title"><span>Top Bestsellery</span></div>
-        <p class="title2">Najczêœciej wybierane produkty przez naszych klientów</p>
+        <p class="title2">NajczÄ™Å›ciej wybierane produkty przez naszych klientÃ³w</p>
         <div class="products">
             <div class="product-container">
                 <div class="bestsellers-text">Bestsellery</div>
@@ -38,7 +38,7 @@
                     <nuxt-link to="https://clickfashion.pl/nowosci.html">
                         <div class="bestseller-link-btn">
                             <a class="bestseller-link">
-                                <span class="button-text">ZOBACZ WIÊCEJ</span>
+                                <span class="button-text">ZOBACZ WIÄ˜CEJ</span>
                                 <ArrowSvg class="arrow-icon" />
                             </a>
                         </div>
@@ -62,8 +62,8 @@ export default {
                     link: 'https://clickfashion.pl/70-657.html',
                     name: 'Marynarka Ala Stripes',
                     image: 'https://clickfashion.pl/media/catalog/product/cache/fb6c9e4c0a5b32f84e18ba5122e0ff98/c/l/click_1011_9575_kopia.jpg',
-                    oldprice: '599,00 z³',
-                    price: '599,00 z³',
+                    oldprice: '599,00 zÅ‚',
+                    price: '599,00 zÅ‚',
                     sizes: ['36', '38', '40', '42', '44']
                 },
                 {
@@ -71,8 +71,8 @@ export default {
                     link: 'https://clickfashion.pl/70-950.html',
                     name: 'Marynarka Nana',
                     image: 'https://clickfashion.pl/media/catalog/product/cache/fb6c9e4c0a5b32f84e18ba5122e0ff98/4/1/41de079b69334e36a2e3a33818e4bbc1.jpg',
-                    oldprice: '549,00 z³',
-                    price: '549,00 z³',
+                    oldprice: '549,00 zÅ‚',
+                    price: '549,00 zÅ‚',
                     sizes: ['36', '38', '40', '42', '44', '46']
                 },
                 {
@@ -80,8 +80,8 @@ export default {
                     link: 'https://clickfashion.pl/30-261.html',
                     name: 'Spodnie Nana',
                     image: 'https://clickfashion.pl/media/catalog/product/cache/fb6c9e4c0a5b32f84e18ba5122e0ff98/3/0/30-261_3_.jpg',
-                    oldprice: '299,00 z³',
-                    price: '299,00 z³',
+                    oldprice: '299,00 zÅ‚',
+                    price: '299,00 zÅ‚',
                     sizes: ['38', '40', '42', '44', '46']
                 },
             ],
