@@ -52,7 +52,7 @@ const navigation = [
   },
   {
     label: "Stylizacje codzienne",
-    link:"stylizajce-codzienne.vue",
+    link:"stylizacje-codzienne",
   },
   {
     label: "Kolekcja świąteczna",
